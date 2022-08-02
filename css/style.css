@@ -164,6 +164,15 @@ a:active {
     justify-content: left;
 }
 
+.parafosGym{
+    text-align: justify;
+    color:wheat;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
 .contacto {
     text-align: center;
     color: #ffc107;
