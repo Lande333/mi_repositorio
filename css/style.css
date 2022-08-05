@@ -3,15 +3,6 @@
     padding: 0;
 }
 
-.contenedor {
-    width: 90%;
-    max-width: 1500px;
-    margin: 20px auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(1);
-    grid-template-rows: repeat(3, auto);
-}
 
 .contenedor > div,
 .contenedor .header,
@@ -22,18 +13,6 @@
     border-radius: 4px;
 }
 
-.contenedor .header {
-    grid-column-start: 1;
-    grid-column-end: -1;
-}
-
-.contenedor .contenido {
-    grid-column: span 1;
-}
-
-.contenedor .footer {
-    grid-column: span 1;
-}
 
 body {
     background-color:#212529;
@@ -164,7 +143,7 @@ a:active {
     justify-content: left;
 }
 
-.parafosGym{
+.parafosMain{
     text-align: justify;
     color:wheat;
     font-family: 'Roboto', sans-serif;
@@ -209,20 +188,6 @@ a:active {
     width: 40%;
 }
 
-@media screen and (max-width: 768px) {
-    
-    .contenedor .contenido {
-        grid-column: 1;
-    }
-
-    .contenedor .header {
-        grid-column: 1;
-    }
-
-    .contenedor .footer {
-        grid-column: 1;
-    }
-}
 
 /*Actividades*/
 
@@ -261,12 +226,6 @@ a:active {
     grid-area: footer;
 }
 
-.bodyOtras {
-    background-color:#212529;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-}
-
 
 .imgActividades {
     width: 100%;
@@ -284,6 +243,11 @@ a:active {
     }
 
 /*Contacto*/
+
+
+.mb-3 {
+    color: #ffc107;
+}
 
 #formulario {
     width: 100%;
