@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/forza.icon.png">    
 </head>
-<body>
-    <div class="conteiner">
+<body class="container">
         <header class ="header">
             <h1>ForzaGym</h1>
             <nav>
@@ -55,33 +54,46 @@
                         en el área de gimnasios.
                     </p>
                 </div>
-                <div class="parrafosMain">
-                    <p>
-                        Aca veras que somos un gimnasio muy serio que busca generar confianza en sus clientes.
-                        Buscamos que confies en nosotros y nos elijas para poder seguir dandote una mano en tu objetivo de mejorar tu estado fisico y mental.
-                        Muchas gracias por confiar en nosotros.
-                    </p>
-                </div>
-            <div class="row">
-                <div class="column">
-                    <img src="./img/gym.jpg" class="imgGym" alt="img1">
-                    <img src="./img/cardio 1.jpg" class="imgGym" alt="img2">
-                    <img src="./img/musculacion 1.jpg" class="imgGym" alt="img3">
-                    <img src="./img/funcional 2.jpg" class="imgGym" alt="img4">
-                </div>
-            </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/gym.jpg" class="d-block w-100" width="90%" height="400px" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/cardio 1.jpg" class="d-block w-100" width="90%" height="400px" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/musculacion 1.jpg" class="d-block w-100" width="90%" height="400px" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/funcional 1.jpeg" class="d-block w-100" width="90%" height="400px" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+
         </main>
         <footer class="footer">
-            <div class="maps-1">
-                <h3>Lomas centro</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.4316728212726!2d-58.403795970743914!3d-34.76247699702806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3e308b11981%3A0xf4136a28ab618109!2sForza%20GYM!5e0!3m2!1ses-419!2sar!4v1656616449847!5m2!1ses-419!2sar"
-                  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>Sede centro, Av. Hipólito Yrigoyen 9183, Lomas de Zamora, Provincia de Buenos Aires</p><br>
-            </div>
-            <div class="maps-2">
-                <h3>Lomas parque</h3>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1546.7498889568217!2d-58.422253758944436!3d-34.769473622810565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3d1ad053b31%3A0x687136fe2e3af132!2sCedro%20Azul%20Futbol!5e0!3m2!1ses-419!2sar!4v1656618470065!5m2!1ses-419!2sar" 
-                  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>Sede parque Lomas, Gral. Frías 1051, B1832 Lomas de Zamora, Provincia de Buenos Aires</p><br>
-            </div><hr>
+            <div class="conteiner">
+                <div class="maps-1">
+                    <h3>Lomas centro</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.4316728212726!2d-58.403795970743914!3d-34.76247699702806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3e308b11981%3A0xf4136a28ab618109!2sForza%20GYM!5e0!3m2!1ses-419!2sar!4v1656616449847!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>Sede centro, Av. Hipólito Yrigoyen 9183, Lomas de Zamora, Provincia de Buenos Aires</p><br>
+                </div>
+                <div class="maps-2">
+                    <h3>Lomas parque</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1546.7498889568217!2d-58.422253758944436!3d-34.769473622810565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3d1ad053b31%3A0x687136fe2e3af132!2sCedro%20Azul%20Futbol!5e0!3m2!1ses-419!2sar!4v1656618470065!5m2!1ses-419!2sar" 
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><p>Sede parque Lomas, Gral. Frías 1051, B1832 Lomas de Zamora, Provincia de Buenos Aires</p><br>
+                </div><hr>
+            </div>    
             <ul>
                 <li><a href="./html/actividades.html">Actividades</a></li>
                     <li><a href="./html/contacto.html">Contacto</a></li>
@@ -100,7 +112,6 @@
                 </p>
              </div>
         </footer>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
